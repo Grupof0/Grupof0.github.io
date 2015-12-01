@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <!-- Bootstrap -->
-  <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap2.css" rel="stylesheet">
 	<link href="assets/css/estilo.css" rel="stylesheet">
     
   </head>
@@ -19,7 +19,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html">Grupo f/0</a>
+        <a class="navbar-brand" href="#">Grupo f/0</a>
       </div>
   
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -36,45 +36,64 @@
   <div class="jumbotron prime">
   	<div class="container">
     <h1>Hola Mundo</h1>
-    <img src="holder.js/720x300">
+    <img src="holder.js/720x500">
     </div>
   	
   </div>
   
-  <div class="container columna">
+  <div class="container">
   	<hr class="divisor" id="info">
   	<div class="row">
     	<div class="col-md-4">
-        	<h2>¿Qué es grupo f/0?</h2>
-            <p>Parrafo 1</p>
-            <img src="holder.js/300x150">
-            <p><a class="btn btn-primary market" role="button" href="convocatorias.html">Convocatorias</a></p> 
+        	<h2>¿Qué es Grupo f/0?</h2>
+            <p>Es la materialización de ciertos ideales y deseos en las mentes de todos los jóvenes venezolanos para dejar registro de lo que está pasando en la fotografía de nuestro país. Es una asociación fotográfica sin fines de lucro que busca producir, promover y difundir el hecho fotográfico, haciendo uso de los fotolibros como nuestra herramienta principal.</p>
         </div>
         <div class="col-md-4">
-        	<h2>Visión</h2>
-            <p>Parrafo 2</p>
-            <img src="holder.js/300x150">
-            <p><a class="btn btn-primary market" role="button" href="convocatorias.html">Libros</a></p> 
+        	<h2>¿En qué creemos?</h2>
+            <p>El Grupo F/0 tienen como misión principal hacerle una batalla al tiempo, hacer de un segundo una eternidad. Trabajamos de manera abierta, convocando e invitando a fotógrafos y otros artistas a participar. Sólo pedimos que se unan a nosotros con un máximo de creatividad, calidad y sentido (de ameritarlo). </p>
         </div>
         <div class="col-md-4">
-        	<h2>¿Qué queremos lograr?</h2>
-            <p>Parrafo 3</p> 
+        	<h2>¿Nuestros objetivos?</h2>
+            <p>En Grupo f/0 creemos en la importancia de las publicaciones fotográficas. Por eso hemos fijado como norte la producción de la mayor cantidad de libros posible, siempre con una calidad conceptual y estética del más alto nivel. Buscamos promover la fotografía, pero sobre todo registrar este momento de la fotografia venezolana y preservarlo para el futuro.</p>
+        </div>
+     </div>
+     <div class="row">
+     	<div class="col-md-4">
+        	 
+            <img src="holder.js/300x150">
+            <p><a class="btn btn-primary market" role="button" href="convocatorias.html">Convocatorias</a></p>     
+        </div>
+        <div class="col-md-4">
+        	 
+            <img src="holder.js/300x150">
+            <p><a class="btn btn-primary market" role="button" href="convocatorias.html">Libros</a></p>     
+        </div>
+        
+     	<div class="col-md-4">
+        	 
             <img src="holder.js/300x150" class="fondo">
             <p><a class="btn btn-primary market" role="button" href="convocatorias.html">Fotografía</a></p>    
         </div>
-    </div>
-    
+     </div>
+     
     <hr class="divisor" id="libro">
     <div class="row">
-    	<div class="col-md-12">
-        	<img src="holder.js/600x420">
-            <div class="btn-group">
-            	<a class="btn btn-primary" role="button" href="simbolos.html">¿Qué es?</a>
-                <a class="btn btn-primary" role="button" href="simbolos.html#porque">¿Por qué?</a>
-                <a class="btn btn-primary" role="button" href="simbolos.html#como">¿Cómo se come?</a>
-                <a class="btn btn-primary" role="button" href="simbolos.html#donde">¿Dónde?</a>
-                <a class="btn btn-primary" role="button" href="simbolos.html#quienes">¿Quiénes participan?</a>
+    	<div class="col-md-8">
+        	<img src="holder.js/500x320">
+        </div>
+        <div class="col-md-4">
+            <a class="btn btn-link btn-lg" role="button" href="simbolos.html" id="titulo">Símbolos, Signos y Ficciones</a>
+            <div class="sm"></div>
+            <div class="list-group">
+              <a href="simbolos.html" class="list-group-item">
+                ¿Qué es?
+              </a>
+              <a href="simbolos.html#porque" class="list-group-item">¿Por qué?</a>
+              <a href="simbolos.html#como" class="list-group-item">¿Cómo se come?</a>
+              <a href="simbolos.html#donde" class="list-group-item">¿Dónde?</a>
+              <a href="simbolos.html#quienes" class="list-group-item">¿Quiénes participan?</a>
             </div>
+            
         </div>
     </div>
     
@@ -82,35 +101,63 @@
     
     <div class="row">
     	<div class="col-md-4">
-        	<h2>Contacto</h2>
+        	<h2>Contacto (poner correos y lugar de establecimiento)</h2>
+            
+            <div class="sm"></div>
+            <form class="form" action="index.php" method="post">
+		
+		<p class="name">
+			<input type="text" name="name" id="name" placeholder="Nombre" required/>
+			
+		</p>
+		
+		<p class="email">
+			<input type="email" name="email" id="email" placeholder="E-mail" required/>
+			
+		</p>
+		
+		
+	
+		<p class="text">
+			<textarea name="text" placeholder="Deja tu comentario" ></textarea>
+		</p>
+        
+        <button type="submit" class="btn btn-info">Enviar</button>
+		
+		
+	</form>
+            
         </div>
     	
         <div class="col-md-4">
-        	<a href="http://www.twitter.com/grupofotof0" target="_blank"><img src="assets/img/twitter.png"></a>
+        	<a href="http://www.twitter.com/grupofotof0" target="_blank" class="hidden-xs"><img src="assets/img/twitter.png"></a>
+            <a href="http://www.twitter.com/grupofotof0" target="_blank" class="hidden-md hidden-sm hidden-lg" ><img src="assets/img/twitterSm.png"></a>
             <div class="sm"></div>
-            <a href="http://instagram.com/grupof0" target="_blank"><img src="assets/img/instagram.png"></a>
+            <a href="http://www.instagram.com/grupof0" target="_blank" class="hidden-xs"><img src="assets/img/instagram.png"></a>
+            <a href="http://www.instagram.com/grupof0" target="_blank" class="hidden-md hidden-sm hidden-lg"><img src="assets/img/instagramSm.png"></a>
         </div> <!--Primera columna de imagenes-->
+        <div class="sm hidden-sm hidden-md hidden-lg"></div>
        <div class="col-md-4">
-        	<a href="http://www.facebook.com/grupofotograficof0" target="_blank"><img src="assets/img/facebook.png"></a>
+        	<a href="http://www.facebook.com/grupofotograficof0" target="_blank" class="hidden-xs"><img src="assets/img/facebook.png"></a>
+            <a href="http://www.facebook.com/grupofotograficof0" target="_blank" class="hidden-sm hidden-md hidden-lg"><img src="assets/img/facebookSm.png"></a>
             <div class="sm"></div>
-            <a href="http://vimeo.com/user18824167" target="_blank"><img src="assets/img/vimeo.png"></a>
+            <a href="http://vimeo.com/user18824167" target="_blank" class="hidden-xs"><img src="assets/img/vimeo.png"></a>
+            <a href="http://vimeo.com/user18824167" target="_blank" class="hidden-sm hidden-md hidden-lg"><img src="assets/img/vimeoSm.png"></a>
         </div> <!--Segunda columna de imagenes-->
     </div>
     <hr class="divisor">
     
     <div class="row">
-    	<div class="col-md-12 hidden-sm hidden-xs">
-        	<img src="holder.js/920x400">
+    	<div class="col-md-12">
+        	<img src="assets/img/blog" class="img-responsive">
         </div>
-        <div class="col-md-12 hidden-md hidden-lg">
-        	<img src="holder.js/440x300">
-        </div>
+        
     </div>
     
-    <hr class="divisor">    
+    <div class="lg"></div>    
     <footer>
-      <p class="pull-right">Erwin Henriquez &middot; Daniella Fajardo</p>
-      <p>&copy; 2013 Grupo f/0 &middot; Todos los derechos reservados&middot; <a href="http://www.twitter.com/grupofotof0" target="_blank">Twitter</a></p>
+      <p class="pull-right">Diseñado por: Kevin Henriquez</p>
+      <p>&copy; 2013 Grupo f/0 &middot; Todos los derechos reservados &middot; <a href="http://www.twitter.com/grupofotof0" target="_blank">Twitter</a></p>
     </footer>
   </div>
   

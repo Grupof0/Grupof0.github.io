@@ -33,7 +33,7 @@
       </ul>
     </div><!-- /.navbar-collapse -->
   </nav>
-  <img src="assets/img/_DSC5270-Editar.jpg" class="centrar prime">
+  <img src="assets/img/landing.jpg" class="centrar prime">
   
   <div class="container">
   	<hr class="divisor" id="info">
@@ -109,54 +109,12 @@
     <div class="row">
     	<div class="col-md-4">
         	<h2 class="titulo">Contáctanos</h2>
-            <h4>en info@grupof0.com</h4>
+            <h4><del>en info@grupof0.com</del></h4>
+				<h1><small>Lamentablemente este correo ya no esta en linea.</small></h1>
+				<h1><small> Contactanos en nuestras redes sociales.</small></h1>
             <h4><small>Valencia, Carabobo</small></h4>
             <div class="sm"></div>
-            <h4>Tu opinión es importante</h4>
             
-            <div class="sm"></div>
-            <form class="form" action="index.php" method="post">
-		
-		<p class="name">
-			<input type="text" name="name" id="name" placeholder="Nombre" required/>
-			
-		</p>
-		
-		<p class="email">
-			<input type="email" name="email" id="email" placeholder="E-mail" required/>
-			
-		</p>
-		
-		
-	
-		<p class="text">
-			<textarea name="text" placeholder="Deja tu comentario" ></textarea>
-		</p>
-        
-        <button type="submit" class="btn btn-primary">Enviar</button>
-		<span>
-		  <?php
-if (isset($_REQUEST['email']))
-//if "email" is filled out, send email
-  {
-  //send email
-  $name = $_POST['name'];
-$email = $_POST['email'];
-$message = $_POST['text'];
-$formcontent=" From: $name \n Message: $message";
-$recipient = "info@grupof0.com";
-$subject = "info Grupo f/0";
-$mailheader = "From: $email \r\n";
-mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo "¡Gracias!";
-  }
-else
-  {
-  
-  }
-?></span>
-		
-	</form>
             
         </div>
        <div class="text-center">
@@ -184,14 +142,6 @@ else
         
     </div>
     <hr class="divisor">
-    
-    <div class="row">
-      
-    	<div class="col-md-12">
-        	<img src="assets/img/blogPSD.jpg" class="img-responsive centrar">
-        </div>
-      
-    </div>
     
     <div class="lg"></div>    
     <footer>

@@ -115,7 +115,7 @@
             <h4>Tu opinión es importante</h4>
             
             <div class="sm"></div>
-            <form class="form" action="index.php" method="post">
+            <form class="form" action="index.html" method="post">
 		
 		<p class="name">
 			<input type="text" name="name" id="name" placeholder="Nombre" required/>
